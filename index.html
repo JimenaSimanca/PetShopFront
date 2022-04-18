@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/566941887a.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href= '/css/styles.css' rel='stylesheet'>
+        <title>Petshop</title>
+    </head>
+    <body>
+        <header>
+        <!-- Primer sección del header-->
+            <article class='config'>
+                <ul class='configlist' >
+                    <li  >Grandes ofertas en comederos</li>
+                    <ul class='configlist'>
+                        <li>
+                            <form>
+                                <label for="idioma"></label>
+                                <select  class='configestilo' name="idioma" id="idioma">
+                                    <option value="espanol">Español</option>
+                                    <option value="ingles">Inglés</option>
+                                </select>
+                            </form>
+                        </li>
+                        <li>
+                            <form>
+                                <label for="peso"></label>
+                                <select class='configestilo' name="peso" id="peso">
+                                    <option value="arg">ARG$</option>
+                                    <option value="dolar">USD$</option>
+                                </select>
+                            </form>
+                        </li>
+                    </ul>
+                </ul>
+            </article>
+
+            <!-- Barra de navegación -->
+            <nav>
+                <div class='logo'><img src= '/img/Logo (1).png'></div>
+                <div class='menumobile'>
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class='navbar'>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
+                        Menú principal
+                    </li>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
+                        Categorías
+                    </li>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
+                        Pets
+                    </li>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
+                        Nosotras
+                    </li>
+                    <li class='navbaritems'><i class="fas fa-paw paw"></i>
+                        Contactanos
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Cabecera-->
+        <main>
+            <article class='main-content'>
+                <h1>¡Es un placer tenerte aquí!</h1>
+                <h3>¡Comederos en descuento!</h3>
+                <button class='mainbutton '>COMEDEROS</button>
+            </article>
+        </main>
+
+        <!--Productos destacados-->
+        <section class='destacados'>
+            <i class="fas fa-paw pawprint"></i>
+            <h2>Productos Destacados</h2>
+            <article class='categorias'>
+                <span>Comederos</span>
+                <span>-</span>
+                <span>Accesorios</span>
+                <span>-</span>
+                <span>Comida</span>
+            </article>
+        </section>
+
+        <!-- Producto -->
+        <section class='cards'>
+            <div class="card">
+                <img src="/img/churrasquito.png">
+                <h5>Juguete Churrasquito</h5>
+                <h6>$150</h6>
+            </div>
+            <div class="card">
+                <img src="/img/comedero.png">
+                <h5>Comedero para perro</h5>
+                <h6>$250</h6>
+            </div>
+            <div class="card">
+                <img src="/img/Huesito.png">
+                <h5>Juguete huesito</h5>
+                <h6>$650</h6>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class='contactanos'>
+            <h4> Contáctanos</h4>
+            <form class='formulario'>
+                <label for='name'>
+                    <input class='inputform' type="text" placeholder="Nombre y apellido">
+                </label>
+                <label for='email'>
+                    <input class='inputform' type="text" placeholder="Ingresa tu correo electrónico">
+                </label>
+                <label for='phone'>
+                    <input class='inputform' type="text" placeholder="Teléfono">
+                </label>
+                <div>
+                    <button class='resetbutton' type='reset'>Resetear</button>
+                    <button class='sendbutton' type='submit'>Aceptar</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <!-- Subscripción -->
+            <section class='subscripcion'>
+                <div class='subscripcontent'>
+                    <img src="/img/enviar-correo.png">
+                    <h5 class='subscriptext'>Suscribete para mas novedades</h5>
+                </div>
+                <form >
+                    <input class='inputsubs' type="email" placeholder="Ingresá tu correo electrónico">
+                    <button class='subsbutton' type="submit">Suscribirme</button>
+                </form>
+            </section >
+
+            <!-- Pie de pagina -->
+            <section class="footer">
+                <article class='information'>
+                    <div class='datos'>
+                        <div class='icono'>
+                            <img src="/img/location.png">
+                        </div>
+                        <div class='datostxt'>
+                            <h5 class='text'>Localidad</h5>
+                            <p class='text-1'>Calle-Provincia</p>
+                        </div>
+                    </div>
+                    <div  class='datos'>
+                        <div class='icono'>
+                            <img src="/img/contacto.png">
+                        </div>
+                        <div  class='datostxt'>
+                            <h5 class='text'>Telefono</h5>
+                            <p class='text-1'>Número de teléfono</p>
+                        </div>
+                    </div>
+                    <div  class='datos'>
+                        <div class='icono'>
+                            <img  src="/img/correo.png">
+                        </div>
+                        <div  class='datostxt'>
+                            <h5 class='text'>Correo electrónico</h5>
+                            <p class='text-1'>Dirección de correo</p>
+                        </div>
+                    </div>
+                </article>
+                <div  class='logo-footer'>
+                    <img src="/img/Logo (2).png">
+                </div>
+            </section>
+            <div class="politicas">
+                <p>Todos los derechos reservados Front End</p>
+            </div>
+        </footer>
+    </body>
+</html>
